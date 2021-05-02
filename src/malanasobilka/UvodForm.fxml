@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="896.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="malanasobilka.UvodFormController">
+   <children>
+      <Button layoutX="121.0" layoutY="119.0" mnemonicParsing="false" onAction="#malaNasobilkaNasobeni" text="Násobení" />
+      <Button layoutX="219.0" layoutY="119.0" mnemonicParsing="false" onAction="#malaNasobilkaDeleni" text="Dělení" />
+      <Text layoutX="14.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Malá násobilka" />
+      <Text layoutX="14.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Velká násobilka" />
+      <Button layoutX="219.0" layoutY="162.0" mnemonicParsing="false" onAction="#velkaNasobilkaDeleni" text="Dělení" />
+      <Button layoutX="121.0" layoutY="162.0" mnemonicParsing="false" onAction="#velkaNasobilkaNasobeni" text="Násobení" />
+      <Button layoutX="121.0" layoutY="209.0" mnemonicParsing="false" onAction="#scitaniDoSta" text="Sčítání" />
+      <Button layoutX="219.0" layoutY="209.0" mnemonicParsing="false" onAction="#odecitaniDoSta" text="Odečítání" />
+      <Text layoutX="14.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Do 100" />
+      <Text layoutX="14.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vítejte  v aplikaci. Vyberte si matematickou operaci, kterou si chcete procvičit.">
+         <font>
+            <Font size="21.0" />
+         </font></Text>
+      <Text layoutX="303.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="( výsledek do 100 )" />
+      <Text layoutX="303.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="( výsledek do 400 )" />
+      <Text layoutX="14.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Do 10" />
+      <Button layoutX="121.0" layoutY="257.0" mnemonicParsing="false" onAction="#scitaniDoDeseti" text="Sčítání" />
+      <Button layoutX="218.0" layoutY="257.0" mnemonicParsing="false" onAction="#odecitaniDoDeseti" text="Odečítání" />
+      <Text layoutX="321.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="( výsledek do 200 )" />
+      <Text layoutX="321.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="( výsledek do 20 )" />
+      <CheckBox fx:id="tezsiVerze" layoutX="122.0" layoutY="309.0" mnemonicParsing="false" text="Těžší Verze" />
+      <Text layoutX="14.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="V těžší verzi dostanete políčko, kam budete muset napsat správný výsledek. Oproti jednodušší verzi nedostanete 4 výsledky na výběr" />
+      <Text layoutX="12.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Základní úroveň je jednoduchá. V jednodušší verzi dostanete na výběr ze 4 možností. Vy si vyberete jen jednu." />
+      <Text layoutX="22.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Úlohy jsou určeny pro žáky prvního stupně ZŠ" />
+   </children>
+</AnchorPane>

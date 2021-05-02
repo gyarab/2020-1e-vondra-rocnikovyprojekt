@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="221.0" prefWidth="442.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="malanasobilka.NasobilkaFormController">
+    <children>
+        <Button fx:id="prvni" layoutX="20.0" layoutY="60.0" onAction="#zmacknuti" />
+      <TextField fx:id="priklad" layoutX="9.0" layoutY="8.0" />
+      <Button fx:id="druhy" layoutX="75.0" layoutY="60.0" mnemonicParsing="false" onAction="#zmacknuti" />
+      <Button fx:id="treti" layoutX="20.0" layoutY="100.0" mnemonicParsing="false" onAction="#zmacknuti" />
+      <Button fx:id="ctvrty" layoutX="75.0" layoutY="100.0" mnemonicParsing="false" onAction="#zmacknuti" />
+      <Label layoutX="23.0" layoutY="149.0" />
+      <TextField fx:id="vysledek" layoutX="9.0" layoutY="160.0" prefHeight="31.0" prefWidth="243.0" />
+      <Button fx:id="dalsi" layoutX="257.0" layoutY="160.0" mnemonicParsing="false" onAction="#generovatPriklad" text="Další příklad" />
+      <TextField fx:id="cas" layoutX="206.0" layoutY="8.0" prefHeight="31.0" prefWidth="68.0" />
+      <Text layoutX="160.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zbývá" />
+      <Text layoutX="232.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="správných výsledků" />
+      <Text layoutX="284.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sekund" />
+      <Button fx:id="znovu" layoutX="366.0" layoutY="160.0" mnemonicParsing="false" onAction="#znovu" text="Znovu" />
+      <Label fx:id="zbyva" layoutX="212.0" layoutY="81.0" text="0" />
+      <TextField fx:id="zadanyVysledek" layoutX="14.0" layoutY="75.0" prefHeight="31.0" prefWidth="109.0" visible="false" />
+      <Button fx:id="vyhodnotit" defaultButton="true" layoutX="14.0" layoutY="118.0" mnemonicParsing="false" onAction="#zmacknuti" text="Vyhodnotit" />
+    </children>
+</AnchorPane>
